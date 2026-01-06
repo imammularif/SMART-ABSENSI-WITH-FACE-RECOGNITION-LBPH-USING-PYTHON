@@ -1,7 +1,7 @@
 ## Tentang REPO ini
 
 - Judul     : Implementasi Sistem Smart Absensi Wajah Menggunakan Metode Local Binary Patterns Histogram (LBPH)
-- Deskripsi : Dalam perancangan dan pembuatan alat ini, bertujuan untuk membangun dan mengimplementasikan pengenalan wajah dan Smart absensi dengan memanfaatkan kamera pada komputer menggunakan metode Algoritma Local Binary Pattern Histogram (LBPH) menggunakan bahasa pemrograman Python.
+- Deskripsi : Dalam perancangan dan pembuatan alat ini, bertujuan untuk membangun dan mengimplementasikan pengenalan wajah/Deteksi wajah dan Smart absensi dengan memanfaatkan kamera pada komputer menggunakan metode Algoritma Local Binary Pattern Histogram (LBPH) menggunakan bahasa pemrograman Python.
 
 ## Cara Menginstal Python di Komputer/Laptop  
 
