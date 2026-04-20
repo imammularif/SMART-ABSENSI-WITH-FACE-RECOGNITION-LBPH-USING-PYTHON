@@ -30,8 +30,11 @@ Untuk dapat menjalankan program ini, silakan lakukan instalasi Python dengan lan
 
 ## Contoh tampilan Programnya
 
+
+###Tampilan GUI(Graphical User Interface)
 <img src="https://github.com/imammularif/TA/blob/main/Source/SS%20DEMO.png" alt="Tampilan_demo_program" width="400">
 
+###Hasil INsert Data ke Relasi Antar Table Berupa Exel/CSV
 <img src="https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON/blob/main/Source/Screenshot%202026-04-20%20155518.png" width="400">
 
 
