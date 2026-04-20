@@ -52,3 +52,12 @@ Dengan memanfaatkan teknologi **Computer Vision**, sistem ini dirancang untuk:
 ---
 
 ## 📂 Project Structure
+
+Smart-Absensi/
+│
+├── dataset/          # Data wajah
+├── trainer/          # Model hasil training
+├── images/           # Screenshot / dokumentasi
+├── main.py           # Program utama
+├── requirements.txt  # Dependency
+└── README.md
