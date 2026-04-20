@@ -153,8 +153,8 @@ Data absensi akan tersimpan dalam format:
 ## 👨‍💻 Author
 
 **Imammul Arif**
-Email: (isi email kamu)
-LinkedIn: (isi LinkedIn kamu)
+Email: 
+LinkedIn: 
 
 ---
 
