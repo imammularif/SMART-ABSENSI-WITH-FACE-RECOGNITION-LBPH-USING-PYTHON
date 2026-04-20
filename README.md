@@ -1,46 +1,54 @@
-## Tentang REPO ini
+# 🎯 Smart Attendance System with Face Recognition (LBPH)
 
-- Judul     : Implementasi Sistem Smart Absensi Wajah Menggunakan Metode Local Binary Patterns Histogram (LBPH)
-- Deskripsi : Dalam perancangan dan pembuatan alat ini, bertujuan untuk membangun dan mengimplementasikan pengenalan wajah/Deteksi wajah dan Smart absensi dengan memanfaatkan kamera pada komputer menggunakan metode Algoritma Local Binary Pattern Histogram (LBPH) menggunakan bahasa pemrograman Python.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Face%20Recognition-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-## Cara Menginstal Python di Komputer/Laptop  
+---
 
-Untuk dapat menjalankan program ini, silakan lakukan instalasi Python dengan langkah berikut:  
+## 📌 Overview
 
-- Buka [python.org](https://www.python.org) di browser  
-- Klik menu **Download**  
-- Pilih sesuai sistem operasi yang digunakan (Windows, Linux, atau macOS)  
-- Klik link pada versi Python yang diinginkan  
-- File instalasi akan otomatis terunduh
-- instal File tersebut, nunggu hingga instalasi selesai
-- JIka instalasi python selesai, cek menggunakan CMD/Terminal menggunakan perintah berikut
-  
-   ```bash
-     python --version
-     ```
-   
-![Cek](https://github.com/imammularif/TA/blob/main/Source/cek%20python.png)
+Smart Attendance System adalah aplikasi absensi otomatis berbasis **face recognition** yang menggunakan algoritma **Local Binary Patterns Histogram (LBPH)**.
 
-## Cara Menjalankan Program
+Sistem ini memungkinkan pencatatan kehadiran secara **real-time** menggunakan kamera komputer tanpa input manual, sehingga meningkatkan efisiensi dan akurasi data absensi.
 
-- Download file Project Smart-Absensi-main
-- Buka file pythonya menggunakan [VSCode](https://code.visualstudio.com/)
-- Lalu, jalankan programnya dengan klik icon di kanan atas (run python file), dan progrmanya akan berjalan. (Untuk tata cara penggunaanya, ada di dalam folder program ([README](https://github.com/imammularif/TA/blob/main/Smart-Absensi-main/README.md))
-- Sekian
+---
 
-## Contoh tampilan Programnya
+## 🧠 Background
 
-Tampilan GUI(Graphical User Interface)
-<img src="https://github.com/imammularif/TA/blob/main/Source/SS%20DEMO.png" alt="Tampilan_demo_program" width="400">
+Proses absensi manual memiliki beberapa kelemahan:
+- Rentan manipulasi (titip absen)
+- Membutuhkan waktu lebih lama
+- Kurang efisien dalam pengolahan data
 
-Hasil INsert Data ke Relasi Antar Table Berupa Exel/CSV
-<img src="https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON/blob/main/Source/Screenshot%202026-04-20%20155518.png" width="400">
+Dengan memanfaatkan teknologi **Computer Vision**, sistem ini dirancang untuk:
+- Mengidentifikasi wajah pengguna
+- Mencatat kehadiran secara otomatis
+- Menyimpan data secara terstruktur
 
+---
 
+## ✨ Features
 
+- 🎥 Face detection (real-time)
+- 🧠 Face recognition menggunakan metode LBPH
+- 📸 Capture dataset wajah
+- ⚙️ Training model wajah
+- ✅ Absensi otomatis
+- 💾 Export data ke CSV / Excel
+- 🖥️ GUI berbasis Tkinter
 
+---
 
+## 🛠️ Tech Stack
 
+- Python  
+- OpenCV  
+- NumPy  
+- Pandas  
+- Tkinter (GUI)  
+- CSV / Excel  
 
+---
 
-
+## 📂 Project Structure
