@@ -84,6 +84,7 @@ Smart-Absensi/
 ├── requirements.txt  # Dependency
 └── README.md         # Dokumentasi project
 
+```
 ---
 
 ## ⚙️ Installation
