@@ -74,14 +74,15 @@ The system captures facial data, trains a recognition model, and records attenda
 ---
 
 ## 📂 Project Structure
+
+```bash
 Smart-Absensi/
-│
-├── dataset/
-├── trainer/
-├── images/
-├── main.py
-├── requirements.txt
-└── README.md
+├── dataset/          # Data wajah
+├── trainer/          # Model hasil training
+├── images/           # Screenshot / dokumentasi
+├── main.py           # Program utama
+├── requirements.txt  # Dependency
+└── README.md         # Dokumentasi project
 
 ---
 
@@ -110,6 +111,7 @@ The system generates attendance records in:
 - Clear facial visibility during training
 
 ## 🚀 Future Improvements
+
 - Improve GUI/UX design
 - Integrate database (MySQL / PostgreSQL)
 - Develop web-based version (Flask / Django)
@@ -117,10 +119,11 @@ The system generates attendance records in:
 - Support multi-user system
 
 
-##💡 Reflection
-- This project allowed me to apply computer vision concepts into a practical system.
-I learned how to build a pipeline from data collection to model training and real-time implementation.
+## 💡 Reflection
 
-##📢 License
+- This project allowed me to apply computer vision concepts into a practical system. I learned how to build a pipeline from data collection to model training and real-time implementation.
+
+## 📢 License
+
 - This project is open-source and intended for educational purposes.
 
