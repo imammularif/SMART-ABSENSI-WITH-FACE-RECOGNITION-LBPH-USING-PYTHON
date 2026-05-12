@@ -57,7 +57,7 @@ The system captures facial data, trains a recognition model, and records attenda
 
 <br>
 
-*Sistem absensi berbasis wajah yang terintegrasi otomatis dengan laporan Excel.*
+*Face-based attendance system integrated with automated Excel reporting.*
 
 </div>
 
@@ -90,7 +90,9 @@ Smart-Absensi/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON.git cd SMART-ABSENSI-WITH-FACE RECOGNITION-LBPH-USING-PYTHON pip install -r requirements.txt
+git clone https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON.git
+cd SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON
+pip install -r requirements.txt
 ```
 
 ## ▶️ Run the Application
@@ -127,4 +129,10 @@ The system generates attendance records in:
 ## 📢 License
 
 - This project is open-source and intended for educational purposes.
+
+---
+
+## 📩 Connect with Me
+- **LinkedIn:** [linkedin.com/in/nama-kamu](https://linkedin.com/in/nama-kamu)
+- **Portfolio:** [github.com/imammularif](https://github.com/imammularif)
 
