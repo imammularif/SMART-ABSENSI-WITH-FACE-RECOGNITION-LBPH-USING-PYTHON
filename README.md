@@ -54,6 +54,10 @@ The system captures facial data, trains a recognition model, and records attenda
 </p>
 
 <p align="center">
+  <img src="https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON/blob/main/Source/Face_Detection.jpg" width="600"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON/blob/main/Source/Screenshot%202026-04-20%20155518.png" width="600"/>
 </p>
 
