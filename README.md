@@ -143,5 +143,5 @@ This project is open-source and intended strictly for educational and portfolio 
 
 ## 📩 Connect with Me
 
-- **LinkedIn:** [://linkedin.com](https://www.linkedin.com/in/imammularif/) 
+- **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/imammularif/) 
 - **GitHub Portfolio:** [github.com/imammularif](https://github.com/imammularif)
