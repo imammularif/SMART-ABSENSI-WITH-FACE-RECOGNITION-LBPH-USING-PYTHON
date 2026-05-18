@@ -10,46 +10,49 @@ A real-time face recognition-based attendance system built using Computer Vision
 
 ## 📌 Project Overview
 
-This project implements an automated attendance system using **face recognition with the LBPH (Local Binary Patterns Histogram) algorithm**.
+This project implements an automated attendance system using **face recognition with the LBPH (Local Binary Patterns Histogram) algorithm**. 
 
 The system captures facial data, trains a recognition model, and records attendance in real-time using a webcam—eliminating the need for manual input and reducing human error.
 
 ---
 
-## 🎯 Objective
+## 🎯 Project Objectives
 
-- Automate attendance recording using face recognition  
-- Reduce fraud such as proxy attendance  
-- Improve efficiency and data accuracy  
-- Apply computer vision concepts in a real-world use case  
+- **Automate Attendance:** Streamline recording using biometric face recognition.
+- **Prevent Fraud:** Reduce proxy attendance ("titip absen") through real-time verification.
+- **Enhance Accuracy:** Minimize manual data entry errors for attendance logs.
+- **Real-World CV Application:** Implement Computer Vision pipelines in a practical scenario.
 
 ---
 
 ## ✨ Key Features
 
-- 🎥 Real-time face detection  
-- 🧠 Face recognition using LBPH algorithm  
-- 📸 Face dataset collection  
-- ⚙️ Model training pipeline  
-- ✅ Automated attendance recording  
-- 💾 Export attendance data to CSV / Excel  
-- 🖥️ GUI interface using Tkinter  
+- 🎥 **Real-time Detection:** Immediate face detection via live webcam feed.
+- 🧠 **LBPH Algorithm:** Robust face recognition utilizing Local Binary Patterns Histogram.
+- 📸 **Dataset Collection:** Built-in module to capture and save user facial data.
+- ⚙️ **Model Training Pipeline:** One-click model training based on the captured dataset.
+- ✅ **Automated Logging:** Instant attendance marking upon successful face matching.
+- 💾 **Data Export:** Automated attendance reporting generated directly to CSV and Excel formats.
+- 🖥️ **User-Friendly GUI:** Interactive desktop interface built with Tkinter.
 
 ---
 
 ## 🧠 System Workflow
 
-1. Input user data (Name, ID, Class)  
-2. Capture facial dataset via webcam  
-3. Train recognition model using LBPH  
-4. Detect and recognize faces in real-time  
-5. Automatically record attendance  
+```mermaid
+graph TD
+    A[Input User Data: Name/ID] --> B[Capture Facial Dataset via Webcam]
+    B --> C[Train Recognition Model using LBPH]
+    C --> D[Detect & Recognize Faces in Real-Time]
+    D --> E[Automatically Log Attendance to Excel/CSV]
+```
 
 ---
 
 ## 📸 Preview & Demo
 
 <div align="center">
+
 
 | **User Interface** | **Face Recognition** | **Excel Output** |
 | :---: | :---: | :---: |
@@ -65,11 +68,10 @@ The system captures facial data, trains a recognition model, and records attenda
 
 ## 🛠️ Tech Stack
 
-- Python  
-- OpenCV  
-- NumPy  
-- Pandas  
-- Tkinter (GUI)  
+- **Language:** Python 3.x
+- **Computer Vision:** OpenCV (Open Source Computer Vision Library)
+- **Data Manipulation:** NumPy, Pandas
+- **GUI Framework:** Tkinter
 
 ---
 
@@ -77,62 +79,69 @@ The system captures facial data, trains a recognition model, and records attenda
 
 ```bash
 Smart-Absensi/
-├── dataset/          # Data wajah
-├── trainer/          # Model hasil training
-├── images/           # Screenshot / dokumentasi
-├── main.py           # Program utama
-├── requirements.txt  # Dependency
-└── README.md         # Dokumentasi project
-
+├── Source/           # Core source code and assets
+├── dataset/          # Stored facial image datasets
+├── trainer/          # Trained LBPH model files (.yml)
+├── Attendance/       # Generated Excel/CSV attendance logs
+├── requirements.txt  # Project dependencies
+└── README.md         # Project documentation
 ```
+
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
+### Prerequisite
+Ensure you have Python 3.x installed on your system.
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/imammularif/SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON.git
 cd SMART-ABSENSI-WITH-FACE-RECOGNITION-LBPH-USING-PYTHON
+```
+
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-## ▶️ Run the Application
-
+### 3. Run the Application
 ```bash
 python main.py
 ```
 
+---
 
-## 📊 Output
-The system generates attendance records in:
-- CSV
-- Excel
+## ⚠️ System Requirements & Constraints
 
-## ⚠️ Requirements
+- **Hardware:** An active, functioning internal or external webcam.
+- **Environment:** Adequate lighting conditions for optimal facial feature extraction.
+- **Data Quality:** Clear facial visibility without obstructions during the dataset collection phase.
 
-- Active webcam
-- Adequate lighting conditions
-- Clear facial visibility during training
+---
 
 ## 🚀 Future Improvements
 
-- Improve GUI/UX design
-- Integrate database (MySQL / PostgreSQL)
-- Develop web-based version (Flask / Django)
-- Add dashboard for attendance monitoring
-- Support multi-user system
+- Modernize the GUI/UX using advanced libraries like CustomTkinter.
+- Integrate relational database systems (MySQL / PostgreSQL) for robust data handling.
+- Transition into a web-based platform using Flask or Django.
+- Build a centralized dashboard for real-time attendance monitoring and analytics.
 
+---
 
 ## 💡 Reflection
 
-- This project allowed me to apply computer vision concepts into a practical system. I learned how to build a pipeline from data collection to model training and real-time implementation.
+This project successfully bridges the gap between Computer Vision theory and practical software engineering. Developing this system provided deep insights into building data pipelines—from raw image collection and feature training to real-time classification and automated business reporting.
+
+---
 
 ## 📢 License
 
-- This project is open-source and intended for educational purposes.
+This project is open-source and intended strictly for educational and portfolio purposes.
 
 ---
 
 ## 📩 Connect with Me
-- **LinkedIn:** [linkedin.com/in/nama-kamu](https://linkedin.com/in/nama-kamu)
-- **Portfolio:** [github.com/imammularif](https://github.com/imammularif)
 
+- **LinkedIn:** [://linkedin.com](https://www.linkedin.com/in/imammularif/) 
+- **GitHub Portfolio:** [github.com/imammularif](https://github.com/imammularif)
